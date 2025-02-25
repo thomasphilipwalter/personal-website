@@ -7,7 +7,10 @@ import Art from './pages/Art'
 
 function App() {
   return (
-    <main className="pt-16">
+    <main>
+      <div className="w-full bg-white text-black text-center py-4 text-3xl font-bold">
+        Thomas Walter, CS
+      </div>
       <NavBar />
       <div className="p-4">
         <Routes>

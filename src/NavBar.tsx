@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
-    <nav className="bg-gray-800 text-white py-4 fixed w-full top-0 shadow-md">
+    <nav className="bg-gray-800 text-white py-4 w-full shadow-md"> 
       <ul className="flex justify-center space-x-6">
         {["About Me", "Computer Science", "Music", "Art"].map((item) => (
           <li key={item}>
