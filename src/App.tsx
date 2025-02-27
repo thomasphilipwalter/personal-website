@@ -9,7 +9,7 @@ function App() {
   return (
     <main>
       <div className="w-full bg-white text-black text-center py-4 text-3xl font-bold">
-        Thomas Walter, CS - TEST
+        Thomas Walter, CS 
       </div>
       <NavBar />
       <div className="p-4">
