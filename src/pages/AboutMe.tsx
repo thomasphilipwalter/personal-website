@@ -31,7 +31,7 @@ function AboutMe() {
         <div className="mt-4 text-lg space-y-6">
         <p>
           I’m a German-American senior at Yale studying computer science. As a software engineer, I've developed 
-          firmware for industrial automation, built medical software tools through the Yale School of Medicine, and designed full-stack web applications. 
+          firmware for industrial systems, built medical software tools through the Yale School of Medicine, and designed full-stack web applications. 
           My CS interests span computational linguistics, network communication and data exchange in embedded systems, and 
           web development.
 
