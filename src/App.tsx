@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import NavBar from './NavBar'
+import NavBar from './components/NavBar'
 import AboutMe from './pages/AboutMe'
-import ComputerScience from './pages/ComputerScience'
 import Music from './pages/Music'
 import Art from './pages/Art'
+import Resources from './components/Resources'
 
 function App() {
   return (
@@ -16,11 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate to="/about-me" />} />
           <Route path="/about-me" element={<AboutMe />} />
-          <Route path="/computer-science" element={<ComputerScience />} />
           <Route path="/music" element={<Music />} />
           <Route path="/art" element={<Art />} />
         </Routes>
       </div>
+      <Resources />
     </main>
   )
 }

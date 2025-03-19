@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 function AboutMe() {
   return (
     <motion.div
-      className="bg-gray-100 p-10 flex flex-col lg:flex-row items-start gap-8"
+      className="bg-white p-10 flex flex-col lg:flex-row items-start gap-8"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
@@ -28,9 +28,24 @@ function AboutMe() {
         <p className="text-lg leading-relaxed max-w-2xl">
           Hey! I'm Thomas.
         </p>
-        <p className="mt-4 text-lg">
-          Currently, I'm building this website to showcase my projects, music, and whatever else I'm up to.
+        <div className="mt-4 text-lg space-y-6">
+        <p>
+          I’m a German-American senior at Yale studying computer science. As a software engineer, I've developed 
+          firmware for industrial automation, built medical software tools through the Yale School of Medicine, and designed full-stack web applications. 
+          My CS interests span computational linguistics, network communication and data exchange in embedded systems, and 
+          web development.
+
         </p>
+        <p>
+          What draws me to computer science is its versatility; it's a tool that can help solve most real-world problems. 
+          From optimizing industrial servo motor communication to writing software that helps 
+          clinics visualize patient data, to me programming has always been a means, not an end.
+
+        </p>
+        <p>
+          Outside of CS, my main interests are playing the cello, painting, hiking, and most recently, knitting. See some of my projects under “Music” and “Art”!
+        </p>
+      </div>
       </motion.div>
     </motion.div>
   )
