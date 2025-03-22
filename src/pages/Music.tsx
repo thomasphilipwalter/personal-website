@@ -29,6 +29,18 @@ function Music() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
         />
+
+      <motion.iframe
+          className="mt-4 w-80 h-44 sm:w-96 sm:h-56 lg:w-[560px] lg:h-[315px] rounded-lg shadow-lg"
+          src="https://www.youtube.com/embed/zMoSuP-FgIk"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
+        />
       </div>
 
       <motion.div
