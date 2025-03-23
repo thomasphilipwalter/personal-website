@@ -8,7 +8,7 @@ function Music() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center space-y-6">
         <motion.img
           src="/Cello.png"
           alt="Thomas Walter"
