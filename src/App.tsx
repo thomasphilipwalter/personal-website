@@ -8,7 +8,7 @@ import Resources from './components/Resources'
 function App() {
   return (
     <main>
-      <div className="w-full bg-white text-black text-center py-4 text-3xl font-bold">
+      <div className="w-full bg-blue-100 text-black text-center py-4 text-3xl font-bold">
         Thomas Walter, CS 
       </div>
       <NavBar />

@@ -1,6 +1,6 @@
 function Resources() {
   return (
-    <nav className="bg-white text-blue-700 py-4 w-full shadow-md">
+    <nav className="bg-blue-100 text-blue-700 py-4 w-full shadow-md">
       <ul className="flex justify-center space-x-6">
         <li>
           <a
@@ -11,8 +11,6 @@ function Resources() {
             Resume
           </a>
         </li>
-
-        {/* GitHub - External Link */}
         <li>
           <a
             href="https://github.com/thomasphilipwalter"
@@ -23,8 +21,6 @@ function Resources() {
             GitHub
           </a>
         </li>
-
-        {/* LinkedIn - External Link */}
         <li>
           <a
             href="https://www.linkedin.com/in/thomas-walter-46199a1b1/"

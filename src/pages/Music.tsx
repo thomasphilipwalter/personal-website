@@ -9,17 +9,17 @@ function Music() {
       transition={{ duration: 1, ease: "easeOut" }}
     >
       <div className="flex flex-col items-center">
-      <motion.img
-        src="/Cello.png"
-        alt="Thomas Walter"
-        className="w-80 h-auto rounded-lg shadow-lg object-cover"
-        initial={{ opacity: 0, x: -100 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
-      />
-
-      <motion.iframe
-          className="mt-4 w-80 h-44 sm:w-96 sm:h-56 lg:w-[560px] lg:h-[315px] rounded-lg shadow-lg"
+        <motion.img
+          src="/Cello.png"
+          alt="Thomas Walter"
+          className="w-80 h-auto rounded-lg shadow-lg object-cover"
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
+        />
+        <motion.iframe
+          // className="mt-4 w-80 h-44 sm:w-96 sm:h-56 lg:w-[560px] lg:h-[315px] rounded-lg shadow-lg"
+          className="w-80 h-auto rounded-lg shadow-lg object-cover"
           src="https://www.youtube.com/embed/Lg2E-TxEJ_4"
           title="YouTube video player"
           frameBorder="0"
@@ -29,9 +29,9 @@ function Music() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
         />
-
-      <motion.iframe
-          className="mt-4 w-80 h-44 sm:w-96 sm:h-56 lg:w-[560px] lg:h-[315px] rounded-lg shadow-lg"
+        <motion.iframe
+          // className="mt-4 w-80 h-44 sm:w-96 sm:h-56 lg:w-[560px] lg:h-[315px] rounded-lg shadow-lg"
+          className="w-80 h-auto rounded-lg shadow-lg object-cover"
           src="https://www.youtube.com/embed/zMoSuP-FgIk"
           title="YouTube video player"
           frameBorder="0"
@@ -42,7 +42,6 @@ function Music() {
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.4 }}
         />
       </div>
-
       <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
@@ -64,8 +63,8 @@ function Music() {
             At 14, I was accepted into the German National Youth Orchestra (Bundesjugendorchester), 
             which gave me the opportunity to perform across Europe under conductors like Sir Simon Rattle
             and Kirill Petrenko. I’ve played in some of the world’s most prestigious concert halls, including the 
-            Berlin Philharmonie, Berlin Konzerthaus, Elbphilharmonie, Philharmonie Luxembourg, Athenaeum Bucharest, and Festspielhaus 
-            Baden-Baden. I’ve also performed under the direction of Karina Canellakis, Cristian Mǎcelaru, Joan Falletta, 
+            Berlin Philharmonie, Berlin Konzerthaus, Elbphilharmonie Hamburg, Luxembourg Philharmonie, Cologne Philharmonie, Athenaeum Bucharest, and Festspielhaus 
+            Baden-Baden. I’ve also played under the direction of Karina Canellakis, Cristian Mǎcelaru, Joan Falletta, 
             William Boughton, Larry Oh, Elizabeth Askren, and Karin Hendrickson.
           </p>
           <p>
@@ -75,7 +74,8 @@ function Music() {
               <li><b>2nd Prize</b> – German National Youth Music Competition (Jugend Musiziert)</li>
               <li><b>1st Prize</b> – Hesse State Youth Music Competition</li>
               <li><b>1st Prize</b> – Frankfurt Regional Youth Music Competition</li>
-              <li><b>1st Prize</b> – Grand Prize Virtuoso Competitions (Salzburg and Austria)</li>
+              <li><b>1st Prize</b> – Grand Prize Virtuoso Competition Salzburg</li>
+              <li><b>1st Prize</b> – Grand Prize Virtuoso Competition Vienna</li>
               <li><b>1st Prize</b> – Lunigiana International Music Festival Concerto Competition</li>
               <li><b>Finalist</b> – William Waite Concerto Competition</li>
               <li><b>Finalist</b> – Interlochen Concerto Competition</li>
@@ -84,11 +84,11 @@ function Music() {
           </p>
           <p>
             As a soloist, I’ve performed with the Bad Homburg Chamber Orchestra, the Frankfurt International School 
-            Orchestra, and Orchestra Le Metamorfosi. After winning the Lunigiana International Music Festival 
+            Orchestra, and the Orchestra Le Metamorfosi. After winning the Lunigiana International Music Festival 
             Concerto Competition, I was invited as a guest artist at the Turin International Chamber Music Festival.
           </p>
           <p>
-            Though I’m currently pursuing a Bachelor of Science in Computer Science at Yale University, 
+            Though I’m currently pursuing my degree in Computer Science at Yale, 
             music remains a core part of my life. I am a principal cellist of the Yale Symphony Orchestra, 
             regularly perform chamber music with friends, and have played in the pit orchestra for multiple Yale 
             musical productions.
