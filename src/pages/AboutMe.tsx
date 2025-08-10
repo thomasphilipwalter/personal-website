@@ -18,18 +18,24 @@ function AboutMe() {
                 </p>
                 <div className="mt-4 text-lg space-y-6">
                     <p>
-                        I’m a German-American senior at Yale studying computer science. As a software engineer, I've developed 
-                        firmware for industrial systems, built medical software tools through the Yale School of Medicine, and designed full-stack web applications. 
-                        Other CS interests span computational linguistics, network communication and data exchange in embedded systems, and 
-                        web development.
+                        I’m a German-American senior at Yale studying computer science. As a 
+                        software engineer and data analyst, I’ve developed firmware for industrial 
+                        systems, built medical research software with the Yale School of Medicine, and designed full-stack web 
+                        applications for startups, research groups, and personal projects. My work spans AI automation, 
+                        embedded systems, network communication, data pipelines, and human-in-the-loop AI workflows 
+                        that help teams work more efficiently.
                     </p>
                     <p>
-                        What draws me to computer science is its versatility; it's a tool that can help solve most real-world problems. 
-                        From optimizing industrial servo motor communication to writing software that helps 
-                        clinics visualize patient data, to me programming has always been a means, not an end. Check out my resume, Github, and LinkedIn below.
+                        What drew me to computer science is its versatility. I value having a 
+                        toolset that lets me contribute to solving real-world problems across many 
+                        fields. Check out my resume, GitHub, and LinkedIn below.
                     </p>
                     <p>
-                        Outside of CS, my main interests are playing the cello, painting, hiking, and most recently, knitting. See some of my projects under “Music” and “Art”!
+                        Outside of CS, my main interests are playing the cello, painting, 
+                        hiking — anything creative or in nature. I’ve performed internationally 
+                        with the German National Youth Orchestra, Yale Symphony Orchestra, and at 
+                        festivals in Europe and the U.S. See some of my projects under “Music” and 
+                        “Art”!
                     </p>
                 </div>
             </div>
